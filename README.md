@@ -40,7 +40,7 @@ This dataset consists of 14 features and a target variable. It has 6 nominal var
 
 data visualization, we are going to use seaborn and matplotlib package ,countplots, Histgram , distplot,pie,barh and finaly heatmap plots usually helps us to understand data easily.
 
-![image](https://github.com/AfrahAlharbi/pic/blob/main/Confusie_after_grid.png)
+![image](https://github.com/AfrahAlharbi/pic/blob/main/Target_Distribution.png)
 
 As seen the previous plot Now, we know the distribution for each feature on data we can know is a normal distribution or skewness.
 
