@@ -1,5 +1,5 @@
 # FinalProject-SDA
-# Heart Disease Prediction Using Feature selection and Machine Learning Ensemble
+# Heart Disease Prediction 
 
 ## About Heart disease
 Health is important in our life. Heart disease is one of the most common diseases nowadays, and an early diagnosis of such a disease is a crucial task for many health care providers to prevent their patients for such a disease and to save lives. 
@@ -7,7 +7,7 @@ Health is important in our life. Heart disease is one of the most common disease
 
 In this project, a comparative analysis of different classifiers was performed for the classification of the Heart Disease dataset in order to correctly classify and or predict HD .
 
-This notebook is divided into 7 major steps which are as follows:
+This project is divided into 7 major steps which are as follows:
 
 1. [Data description](#data-desc)
 2. [Importing Libraries ](#imp-lib)
@@ -35,6 +35,24 @@ This dataset consists of 14 features and a target variable. It has 6 nominal var
 **6- fbs:** The person's fasting blood sugar (> 120 mg/dl, 1 = true; 0 = false)<br>
 
 **7- restecg:** Resting electrocardiographic measurement (0 = normal, 1 = having ST-T wave abnormality, 2 = showing probable or definite left ventricular hypertrophy by Estes' criteria)<br>
+
+### Data Exploration
+
+data visualization, we are going to use seaborn and matplotlib package ,countplots, Histgram , distplot,pie,barh and finaly heatmap plots usually helps us to understand data easily.
+
+![text_alt](Image/distrbution_of_data.png)
+
+As seen the previous plot Now, we know the distribution for each feature on data we can know is a normal distribution or skewness.
+
+![text_alt](Image/correlation_between_columns.png)
+
+As seen the previous plot can know the correlation between features with target column.
+
+
+
+![text_alt](Image/e1_strong_correlation_between_columns.png)
+
+As seen the previous plot that example mean_ columns of heatmap That shown extent correlation between features with target column strong or weak.
 
 ## Installations :
 This project requires Python 3.x and the following Python libraries should be installed to get the project started:
