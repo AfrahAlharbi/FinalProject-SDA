@@ -5,7 +5,7 @@
 Health is important in our life. Heart disease is one of the most common diseases nowadays, and an early diagnosis of such a disease is a crucial task for many health care providers to prevent their patients for such a disease and to save lives. 
 ## Project Overview
 
-In this project, a comparative analysis of different classifiers was performed for the classification of the Heart Disease dataset in order to correctly classify and or predict HD .
+In this project, a comparative analysis of different classifiers was performed for the classification of the Heart Disease dataset in order to correctly classify or predict HD .
 
 This project is divided into 7 major steps which are as follows:
 
