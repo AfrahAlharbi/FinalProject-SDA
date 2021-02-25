@@ -83,8 +83,6 @@ In this section , we choose four different classifiers then we choose the best m
 
 4.   RandomForestClassifier
 
-![image](https://github.com/AfrahAlharbi/pic/blob/main/Comparing%20Models.png)
-
 After using different machine learning algorithims the Random Forest Classifier have higest accurecy score so it's better model rather than other models.
 
 ### About the result :
