@@ -89,18 +89,9 @@ After using different machine learning algorithims the Random Forest Classifier 
 
 ### About the result :
 
-As we can see classification_report of Model before grid search which show precision, recall , f1-score and support
-
-![image](https://github.com/AfrahAlharbi/pic/blob/main/report%20_without_grid.png)
-
-![image](https://github.com/AfrahAlharbi/pic/blob/main/Report_with_grid.png)
-
-As we can see classification_report of Model After grid search which show precision, recall , f1-score and support
-
 ![image](https://github.com/AfrahAlharbi/pic/blob/main/confiuse%20matrix_before_grid.png)
  
 As we can see confusion_matrix before grid search which show how many of a classifier's predictions were correct, and when incorrect .
-
 
 ![image](https://github.com/AfrahAlharbi/pic/blob/main/Confusie_after_grid.png)
 
