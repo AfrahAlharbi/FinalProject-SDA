@@ -15,7 +15,7 @@ This project is divided into 7 major steps which are as follows:
 4. [Data Cleaning & Preprocessing](#data-prep)
 5. [Exploratory Data Analysis](#data-eda)
 6. [Model Building](#data-model)
-7. [Conclusion](#data-conc)
+7. [About Result](#data-conc)
 
 
 ## About Data 
@@ -40,23 +40,23 @@ This dataset consists of 14 features and a target variable. It has 6 nominal var
 
 data visualization, we are going to use seaborn and matplotlib package ,countplots, Histgram , distplot,pie,barh and finaly heatmap plots usually helps us to understand data easily.
 
-![image](https://github.com/AfrahAlharbi/pic/blob/main/Dis_Target.png)
+![image](https://github.com/AfrahAlharbi/pic/blob/main/pic1.png)
 
 As seen the previous plot Now,The dataset is balanced having 498 heart disease patients and 453 normal patients
 
-![image](https://github.com/AfrahAlharbi/pic/blob/main/Distributionn_Age.png)
+![image](https://github.com/AfrahAlharbi/pic/blob/main/pic2.png)
 
 As we can see from above plot, in this dataset the average age of heart patients is around 55
 
-![image](https://github.com/AfrahAlharbi/pic/blob/main/Distripution_CP.png)
+![image](https://github.com/AfrahAlharbi/pic/blob/main/pic3.png)
 
 As we can see from above plot  the chest pain type of the heart disease patients have a maximum at atypical angina chest pain.
 
-![image](https://github.com/AfrahAlharbi/pic/blob/main/Distribution_EGC.png)
+![image](https://github.com/AfrahAlharbi/pic/blob/main/pic4%20(1).png)
 
 As we can see from above plot  the EGC rate of the heart disease patients have maximum at ST-T wave abnormality.
 
-![image](https://github.com/AfrahAlharbi/pic/blob/main/ST-slop_distribution.png)
+![image](https://github.com/AfrahAlharbi/pic/blob/main/pic5.png)
 
 As we can see from above plot the  rate slope is Maximum at flat state .
 
@@ -68,7 +68,6 @@ From the above plot it is clear that as the age increases chances of heart disea
 ![image](https://github.com/AfrahAlharbi/pic/blob/main/Correlation.png)
 
 As seen the previous plot, This heatmap that show correlation rate between Target with other features .
-
 
 ### Model Building
 
@@ -84,7 +83,6 @@ In this section , we choose four different classifiers then we choose the best m
 
 4.   RandomForestClassifier
 
-
 ![image](https://github.com/AfrahAlharbi/pic/blob/main/Comparing%20Models.png)
 
 After using different machine learning algorithims the Random Forest Classifier have higest accurecy score so it's better model rather than other models.
@@ -94,7 +92,6 @@ After using different machine learning algorithims the Random Forest Classifier 
 As we can see classification_report of Model before grid search which show precision, recall , f1-score and support
 
 ![image](https://github.com/AfrahAlharbi/pic/blob/main/report%20_without_grid.png)
-
 
 ![image](https://github.com/AfrahAlharbi/pic/blob/main/Report_with_grid.png)
 
@@ -110,7 +107,6 @@ As we can see confusion_matrix before grid search which show how many of a class
 As we can see confusion_matrix after grid search which show how many of a classifier's predictions were correct, and when incorrect .
 
 ![image](https://github.com/AfrahAlharbi/pic/blob/main/Roc-rf.png)
-
 
 As we can see ROC and AUC Curve of Random Forest Model after gridSearchCv .
 
